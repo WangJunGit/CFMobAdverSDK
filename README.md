@@ -7,14 +7,14 @@ CFMobAdverSDK一款轻量级的广告SDK,包括开屏广告,横幅广告,插屏�
 ```pod 'CFMobAdverSDK', '~> 1.0.1'```
 
 # 广告SDK接入说明
-####一、简介
+#### 一、简介
 SDK下载-->SDK配置代码-->广告测试-->App发布 
 ####二、阅读对象
 本文档面向所有使用该 SDK 的开发人员、测试人员以及对此感兴趣的其他用户。 
-####三、版本支持
+#### 三、版本支持
 iOS 8.0
 
-####五、开发示例
+#### 四、开发示例
 >注:以下截图均在示例程序(CFMobAdSDKDemom)中可以找到. 
 
 
@@ -40,10 +40,10 @@ iOS 8.0
  ```
  
  
-####编译前的准备工作:
+#### 编译前的准备工作:
 - 确保内容包括:`SDK`、`AdSupport.framework`、`CoreLocation.framework`
 
-###1.横幅广告 
+### 1.横幅广告 
 1.初始广告视图:
 
 First Header | Second Header
@@ -85,8 +85,8 @@ ScreenWidth);
 - (void)bannerDidDismissLp{
 }
 ```
-###2.开屏广告
-#####全屏开屏广告的使用
+### 2.开屏广告
+##### 全屏开屏广告的使用
 1.展示开屏广告
 在`- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions: (NSDictionary *)launchOptions `中
 
@@ -108,7 +108,7 @@ splashView.canSplashClick = YES;
 2.可选 `delegate` 接口
 在开屏广告的生命周期内，会通过 `delegate` 通知回调相关事件:开屏广告加载是否成 功、展示是否成功、展示开始、展示结束等信息。如需要，您可以利用这些信息进行 处 理，建议在开屏广告展示成功结束，或者广告展示失败的回调进行后续处理,详细使 用 方法请参见 `CFMobAdSplashDelegate.h`
 
-#####半屏开屏广告的使用 为了方便开屏广告嵌入 app 的 icon 和自定义背景，引入半屏 开屏广告
+##### 半屏开屏广告的使用 为了方便开屏广告嵌入 app 的 icon 和自定义背景，引入半屏 开屏广告
 
 First Header |Second Header
 ------------ | ------------
@@ -183,8 +183,8 @@ return YES;
 }
 
 ```
-###3.插屏广告
-#####插屏广告的使用
+### 3.插屏广告
+##### 插屏广告的使用
 1.预加载插屏广告
 
 序号 | 详细信息
