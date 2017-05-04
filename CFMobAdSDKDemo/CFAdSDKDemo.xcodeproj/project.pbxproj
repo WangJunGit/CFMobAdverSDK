@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40A4391B1EB9B81300EF370A /* CFMobAdverSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A439191EB9B81300EF370A /* CFMobAdverSDK.bundle */; };
-		40A4391C1EB9B81300EF370A /* CFMobAdverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A4391A1EB9B81300EF370A /* CFMobAdverSDK.framework */; };
+		40DDA0991EBAEA87009BE468 /* CFMobAdverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DDA0981EBAEA87009BE468 /* CFMobAdverSDK.framework */; };
 		596845D71E6D0A07006EFB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 596845D61E6D0A07006EFB00 /* main.m */; };
 		596845E01E6D0A07006EFB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596845DE1E6D0A07006EFB00 /* Main.storyboard */; };
 		596845E21E6D0A07006EFB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596845E11E6D0A07006EFB00 /* Assets.xcassets */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		40A439191EB9B81300EF370A /* CFMobAdverSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CFMobAdverSDK.bundle; sourceTree = "<group>"; };
-		40A4391A1EB9B81300EF370A /* CFMobAdverSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFMobAdverSDK.framework; sourceTree = "<group>"; };
+		40DDA0981EBAEA87009BE468 /* CFMobAdverSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFMobAdverSDK.framework; sourceTree = "<group>"; };
 		596845D21E6D0A07006EFB00 /* CFAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596845D61E6D0A07006EFB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		596845DF1E6D0A07006EFB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596848C01E6D3212006EFB00 /* Foundation.framework in Frameworks */,
-				40A4391C1EB9B81300EF370A /* CFMobAdverSDK.framework in Frameworks */,
+				40DDA0991EBAEA87009BE468 /* CFMobAdverSDK.framework in Frameworks */,
 				596848BE1E6D3209006EFB00 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,8 +76,8 @@
 		596845D41E6D0A07006EFB00 /* CFAdSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				40DDA0981EBAEA87009BE468 /* CFMobAdverSDK.framework */,
 				40A439191EB9B81300EF370A /* CFMobAdverSDK.bundle */,
-				40A4391A1EB9B81300EF370A /* CFMobAdverSDK.framework */,
 				596845F01E6D0A67006EFB00 /* AppDelegate.h */,
 				596845F11E6D0A67006EFB00 /* AppDelegate.m */,
 				596845F21E6D0A67006EFB00 /* CFMobAdNormalInterstitialViewController.h */,

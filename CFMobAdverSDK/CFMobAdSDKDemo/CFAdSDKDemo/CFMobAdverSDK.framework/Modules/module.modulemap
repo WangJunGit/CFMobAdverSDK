@@ -1,6 +1,0 @@
-framework module CFMobAdverSDK {
-  umbrella header "CFMobAdverSDK.h"
-
-  export *
-  module * { export * }
-}
