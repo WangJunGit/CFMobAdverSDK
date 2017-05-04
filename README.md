@@ -29,7 +29,7 @@ iOS 8.0
 
 - 把`other linker flags` 设置成`-ObjC`
 
- ![32DBB0A3-6A06-44B7-A1C9-6DC6CD15CEC0.png](http://upload-images.jianshu.io/upload_images/1009061-5bf52cf46407bae5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![32DBB0A3-6A06-44B7-A1C9-6DC6CD15CEC0.png](http://upload-images.jianshu.io/upload_images/1009061-5bf52cf46407bae5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
 - `Build Phases`--->`Link Bunary With Libraries` 添加库`AdSupport.framework`,`CoreLocation.framework`.
 
