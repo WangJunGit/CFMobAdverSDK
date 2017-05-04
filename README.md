@@ -24,7 +24,7 @@ iOS 8.0
 - CFMobAdverSDK.CFMobAdverSDK.bundle拖入程序 
 - 在plist中,在NSAppTransportSecurity下设置NSAllowsArbitraryLoads为 true. 
 
-![B833C92A-55CF-4612-B560-3438EAFA2A81](media/14938594300113/B833C92A-55CF-4612-B560-3438EAFA2A81.png)
+![B833C92A-55CF-4612-B560-3438EAFA2A81.png](http://upload-images.jianshu.io/upload_images/1009061-c845a5d2e3a8a2a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 在info.plist中加入: 
   - 允许在前台使用时获取GPS的描述 `NSLocationAlwaysUsageDescription=YES `
