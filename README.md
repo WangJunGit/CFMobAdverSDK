@@ -35,8 +35,7 @@ iOS 8.0
 
 - 修改下面方法中的`AppID`的值为自己的`AppID`，并配置自己的开发环境 
 ```
-[CFAdvertisement registerAppID:@"0446c3a9b4da4810aebd8c2fc8dd1a74"
- developModel:CFSDKModeDevelopment];
+[CFAdvertisement registerAppID:@"0446c3a9b4da4810aebd8c2fc8dd1a74" developModel:CFSDKModeDevelopment];
  ```
  
  
@@ -60,8 +59,7 @@ First Header | Second Header
     self.bannerView = [[CFMobAdView alloc] init];        
     self.bannerView.adType = CFMobAdViewTypeBanner;
     CGFloat bannerY = kScreenHeight - 0.15*kScreenWidth; 
-    self.bannerView.frame = CGRectMake(0, bannerY, kScreenWidth, 0.15*k
-ScreenWidth);
+    self.bannerView.frame = CGRectMake(0, bannerY, kScreenWidth, 0.15*kScreenWidth);
     [self.view addSubview:self.bannerView];
     self.bannerView.delegate = self;
     [self.bannerView start];
@@ -139,19 +137,16 @@ Options:(NSDictionary *)launchOptions {
     CGFloat screenHeight = self.window.frame.size.height;
     
     //在SplashContainer 做上展现 告的容 ，注意尺 必须 于200*200，并且Splas hContainer需要全部在window内，同时开机画  建议旋转
-    UIView * SplashContainer = [[UIView alloc]initWithFrame:CGRectMake(
-0, 0, screenWidth, screenHeight - 40)];
+    UIView * SplashContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight - 40)];
     [self.customSplashView addSubview:SplashContainer];
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, screen
-Height - 40, screenWidth, 20)];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, screenHeight - 40, screenWidth, 20)];
     label.text = @"上 为开屏 告位"; 
     label.textAlignment = NSTextAlignmentCenter;             
     [self.customSplashView addSubview:label];
     
     //在的SplashContainer 展现 告
     [splashView loadAndDisplayUsingContainerView:SplashContainer];
-return YES; 
-
+    return YES; 
 }
 ```
 
