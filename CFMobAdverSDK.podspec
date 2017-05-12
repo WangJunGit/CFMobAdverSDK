@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CFMobAdverSDK"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "这是一款轻量级的广告SDK."
   s.description      = <<-DESC
                        这是一款轻量级的广告SDK,含有开屏广告,插屏广告,横幅广告!

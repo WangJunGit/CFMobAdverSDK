@@ -12,6 +12,15 @@
 
 #endif /* CFMobAdCommonConfig_h */
 
+typedef NS_ENUM(NSInteger, CFNetWorkState) {
+    CFNetWorkStateNot = 0,
+    // 没有网
+    CFNetWorkStateWWAN = 1,
+    //手机网络
+    CFNetWorkStateWIFI = 2
+    //WIFI
+};
+
 /**
  * 广告错误类型
  * 0 banner 插屏
